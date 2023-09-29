@@ -10,9 +10,6 @@ namespace Business.Abstract
 {
     public interface IAuthService
     {
-        public Task<RegisteredDto> CustomerForRegister(CustomerForRegisterDto customerForRegisterDto);
-        public Task<RegisteredDto> SupplierForRegister(SupplierForRegisterDto supplierForRegisterDto);
-        public Task<LoginedDto> CustomerForLogin(UserForLoginDto userForLoginDto);
 
     }
 }
