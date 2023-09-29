@@ -29,8 +29,6 @@ namespace TradingProject.Business
             //    services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
 
             //    services.AddScoped<IAuthService, AuthManager>();
-
-
             return services;
 
         }
